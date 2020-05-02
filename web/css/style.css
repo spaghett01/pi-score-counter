@@ -1,0 +1,145 @@
+/* Generic */
+body {
+    background-color: black;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../materialize/fonts/icons.woff2) format('woff2');
+}  
+
+h1 {
+    margin: 20px;
+}
+
+#clock {
+    height: 75px;
+    width: 150px;
+    line-height: 75px;
+    font-size: 52px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(251, 255, 16);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    z-index: 9999;
+}
+
+#banner-stats {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-size: 52px;
+    color: #FFF;
+    background-color: #444;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Main menu */
+
+#view-main-menu .fixed-height {
+    overflow-y: hidden;
+}
+
+#players-list .card-panel {
+    margin: 0px;
+    padding: 10px;
+}
+
+#players-list .card-panel h3 {
+    margin: 0px;
+}
+
+.img-nfc {
+    width: 90px;
+    margin-left: 30px;
+    padding-top: 0px;
+    margin-bottom: -18px;
+}
+
+/* In game */
+.big-score {
+    font-size: 700px;
+    line-height: 600px;
+    font-weight: bold;
+    color: white;
+}    
+
+.player-name {
+    font-size: 100px;
+}
+
+.img-ranks {
+    width: 200px;
+    height: 200px;
+}
+
+.mini-img-rank {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+}
+
+.elo-player {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    padding-left: 18% !important;
+    font-weight: bold;
+}
+
+.compare-elo-player {
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    padding-left: 20% !important;
+    font-weight: normal;
+}
+
+.img-flag {
+    height: 100px;
+    width: auto;
+}
+
+/* Stats master view */
+#table-stats {
+    color: white;
+    font-size: 50px;
+}
+
+#table-stats td {
+    padding: 0px 15px;
+}
+
+#no-player-ranked-message {
+    margin-top: 100px;
+    font-weight: bold;
+}
